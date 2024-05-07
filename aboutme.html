@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
+    <link rel="stylesheet" href="estilo2.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <nav class="navbar">
+                <a href="home.html">
+                    <div class="navbar-logo" >
+                        <img src="images/logo1.png" width="250" >
+                    </div>
+                </a>
+                <ul class="navbar-links" id="navbar-links">
+                    <li><a href="aboutme.html">AboutMe</a></li>
+                    <li><a href="digitalwork.html">DigitalWork</a></li>
+                    <li><a href="#">SketchBook</a></li>
+                    <li><a href="#">ContactMe</a></li>
+                </ul>
+            </nav>
+            <a onclick="openNav()" href="#" class="menu"><button>Menu</button></a>
+            <div class="overlay" id="mobile-menu">
+                <a onclick="closeNav()" href="" class="close">&times;</a>
+                <div class="overlay-content">
+                    <a href="aboutme.html">AboutMe</a>
+                    <a href="digitalwork.html">DigitalWork</a>
+                    <a href="#">SketchBook</a>
+                    <a href="#">ContactMe</a>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <h1>AboutMe</h1>
+                <div class="image-container">
+                    <img src="images/aboutme.jpg" class="imagen-cortada">
+                </div>
+                <p>Hey I am Paulette!
+                    I am a graphic design student, currently in my third year of exploration. I am captivated by illustration and analog processes, where the essence of art resides in the journey itself. My passion spills into watercolors and the pages of my sketchbooks, where I interwine drawing and writing, crafting an eternal dance of ideas and emotions. Welcome to some of my work and enojoy having a look!
+                </p>
+            </div>            
+            
+        </section>
+        <footer class="footer">
+            <img src="images/footer.png" alt="" width="175" class="imagencentrada">
+        </footer>
+        <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

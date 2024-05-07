@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactMe</title>
+    <link rel="stylesheet" href="estilo4.css">
+    <script src="https://kit.fontawesome.com/2572b5b17f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="home.html">
+                <div class="navbar-logo" >
+                    <img src="images/logo1.png" width="250" >
+                </div>
+            </a>
+            <ul class="navbar-links" id="navbar-links">
+                <li><a href="aboutme.html">AboutMe</a></li>
+                <li><a href="digitalwork.html">DigitalWork</a></li>
+                <li><a href="sketchbook.html">SketchBook</a></li>
+                <li><a href="contactme.html">ContactMe</a></li>
+            </ul>
+        </nav>
+        <a onclick="openNav()" href="#" class="menu"><button>Menu</button></a>
+        <div class="overlay" id="mobile-menu">
+            <a onclick="closeNav()" href="" class="close">&times;</a>
+            <div class="overlay-content">
+                <a href="aboutme.html">AboutMe</a>
+                <a href="digitalwork.html">DigitalWork</a>
+                <a href="sketchbook.html">SketchBook</a>
+                <a href="contactme.html">ContactMe</a>
+            </div>
+        </div>
+       <div class="content">
+    
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form action="">
+                    <p>
+                        <label >Full Name</label>
+                        <input type="text" name="full name" id="fullname">
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email" id="email">
+                        
+                    </p>
+                    <p>
+                        <label>Phone</label>
+                        <input type="tel" name="phone" id="phone">
+                    </p>
+                    <p>
+                        <label>Affair</label>
+                        <input type="text" name="affair" id="affair">
+                    </p>
+                    <p class="block">
+                        <label>Message</label>
+                        <textarea name="message" id="message" rows="3"></textarea>
+                    </p>
+                    <p class="block">
+                        <button type="submit">
+                            send
+                        </button>
+                    </p>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h4>HOW WE WILL WORK TOGETHER?</h4>
+                
+                <p>
+                    I'm excited to hear more about the project you have in mind. Once you've given me some initial details, we'll schedule an online meeting where we can really dive into the specifics and get to know each other better.
+
+I'm all about building strong partnerships, so I'm committed to making the process as collaborative and enjoyable as possible. Looking forward to chatting with you soon!
+                </p>
+            </div>
+        </div>
+       </div>
+    </header>
+</section>
+<footer class="footer">
+    <img src="images/footer.png" alt="" width="175" class="imagencentrada">
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
